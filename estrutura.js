@@ -7,8 +7,7 @@ function pessoa(nome) {
 
 function funcionario(nome, cargo , salario) {
     this.cargo = cargo;
-    //this.salario = salario
-    let _salario = salario;
+      let _salario = salario;
 
     this.getsalario = function(){
         return _salario;
